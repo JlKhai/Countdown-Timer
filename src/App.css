@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-font {
+  font-family: 'Courgette', cursive;
+}
+
+.background-photo {
+  background-image: url('https://images.unsplash.com/photo-1555972734-22cb4b846a83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
